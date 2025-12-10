@@ -1,0 +1,453 @@
+2025-12-10 18:10:15,930 - opytimizer.spaces.search — INFO — Overriding class: Space -> SearchSpace.
+2025-12-10 18:10:15,931 - opytimizer.core.space — DEBUG — Agents: 1 | Size: (2, 1) | Lower Bound: [1.e-03 1.e+01] | Upper Bound: [1.0e-03 1.5e+01] | Mapping: ['x0', 'x1'] | Built: True.
+2025-12-10 18:10:15,931 - opytimizer.spaces.search — INFO — Class overrided.
+2025-12-10 18:10:15,931 - opytimizer.core.optimizer — DEBUG — Algorithm: DE | Custom Parameters: None | Built: True.
+2025-12-10 18:10:15,931 - opytimizer.optimizers.evolutionary.de — INFO — Class overrided.
+2025-12-10 18:10:15,931 - opytimizer.core.function — INFO — Creating class: Function.
+2025-12-10 18:10:15,931 - opytimizer.core.function — DEBUG — Function: fun | Built: True.
+2025-12-10 18:10:15,931 - opytimizer.core.function — INFO — Class created.
+2025-12-10 18:10:15,931 - opytimizer.opytimizer — INFO — Creating class: Opytimizer.
+2025-12-10 18:10:15,931 - opytimizer.opytimizer — DEBUG — Space: <opytimizer.spaces.search.SearchSpace object at 0x106161010> | Optimizer: <opytimizer.optimizers.evolutionary.de.DE object at 0x1231ab750>| Function: <opytimizer.core.function.Function object at 0x122dd5350>.
+2025-12-10 18:10:15,931 - opytimizer.opytimizer — INFO — Class created.
+2025-12-10 18:10:15,931 - opytimizer.opytimizer — INFO — Starting optimization task.
+2025-12-10 18:14:28,953 - opytimizer.spaces.search — INFO — Overriding class: Space -> SearchSpace.
+2025-12-10 18:14:28,954 - opytimizer.core.space — DEBUG — Agents: 1 | Size: (2, 1) | Lower Bound: [0.001 0.001] | Upper Bound: [10 15] | Mapping: ['x0', 'x1'] | Built: True.
+2025-12-10 18:14:28,955 - opytimizer.spaces.search — INFO — Class overrided.
+2025-12-10 18:14:28,955 - opytimizer.core.optimizer — DEBUG — Algorithm: DE | Custom Parameters: None | Built: True.
+2025-12-10 18:14:28,955 - opytimizer.optimizers.evolutionary.de — INFO — Class overrided.
+2025-12-10 18:14:28,955 - opytimizer.core.function — INFO — Creating class: Function.
+2025-12-10 18:14:28,955 - opytimizer.core.function — DEBUG — Function: fun | Built: True.
+2025-12-10 18:14:28,955 - opytimizer.core.function — INFO — Class created.
+2025-12-10 18:14:28,955 - opytimizer.opytimizer — INFO — Creating class: Opytimizer.
+2025-12-10 18:14:28,955 - opytimizer.opytimizer — DEBUG — Space: <opytimizer.spaces.search.SearchSpace object at 0x11a361250> | Optimizer: <opytimizer.optimizers.evolutionary.de.DE object at 0x1695acc50>| Function: <opytimizer.core.function.Function object at 0x168f73f50>.
+2025-12-10 18:14:28,955 - opytimizer.opytimizer — INFO — Class created.
+2025-12-10 18:14:28,955 - opytimizer.opytimizer — INFO — Starting optimization task.
+2025-12-10 18:14:29,175 - opytimizer.opytimizer — INFO — Iteration 1/50
+2025-12-10 18:15:44,981 - opytimizer.spaces.search — INFO — Overriding class: Space -> SearchSpace.
+2025-12-10 18:15:44,981 - opytimizer.core.space — DEBUG — Agents: 10 | Size: (2, 1) | Lower Bound: [0.001 0.001] | Upper Bound: [10 15] | Mapping: ['x0', 'x1'] | Built: True.
+2025-12-10 18:15:44,981 - opytimizer.spaces.search — INFO — Class overrided.
+2025-12-10 18:15:44,981 - opytimizer.core.optimizer — DEBUG — Algorithm: DE | Custom Parameters: None | Built: True.
+2025-12-10 18:15:44,982 - opytimizer.optimizers.evolutionary.de — INFO — Class overrided.
+2025-12-10 18:15:44,982 - opytimizer.core.function — INFO — Creating class: Function.
+2025-12-10 18:15:44,982 - opytimizer.core.function — DEBUG — Function: fun | Built: True.
+2025-12-10 18:15:44,982 - opytimizer.core.function — INFO — Class created.
+2025-12-10 18:15:44,982 - opytimizer.opytimizer — INFO — Creating class: Opytimizer.
+2025-12-10 18:15:44,982 - opytimizer.opytimizer — DEBUG — Space: <opytimizer.spaces.search.SearchSpace object at 0x101591050> | Optimizer: <opytimizer.optimizers.evolutionary.de.DE object at 0x127602490>| Function: <opytimizer.core.function.Function object at 0x10328ff50>.
+2025-12-10 18:15:44,982 - opytimizer.opytimizer — INFO — Class created.
+2025-12-10 18:15:44,982 - opytimizer.opytimizer — INFO — Starting optimization task.
+2025-12-10 18:15:45,378 - opytimizer.opytimizer — INFO — Iteration 1/50
+2025-12-10 18:15:45,863 - opytimizer.opytimizer — INFO — Fitness: -4.40421491082922
+2025-12-10 18:15:45,863 - opytimizer.opytimizer — INFO — Position: [[5.45301955]
+ [4.09479077]]
+2025-12-10 18:15:45,863 - opytimizer.opytimizer — INFO — Iteration 2/50
+2025-12-10 18:15:46,336 - opytimizer.opytimizer — INFO — Fitness: -5.087850122991303
+2025-12-10 18:15:46,336 - opytimizer.opytimizer — INFO — Position: [[5.79967152]
+ [3.92058222]]
+2025-12-10 18:15:46,336 - opytimizer.opytimizer — INFO — Iteration 3/50
+2025-12-10 18:15:46,789 - opytimizer.opytimizer — INFO — Fitness: -5.087850122991303
+2025-12-10 18:15:46,789 - opytimizer.opytimizer — INFO — Position: [[5.79967152]
+ [3.92058222]]
+2025-12-10 18:15:46,789 - opytimizer.opytimizer — INFO — Iteration 4/50
+2025-12-10 18:15:47,276 - opytimizer.opytimizer — INFO — Fitness: -5.087850122991303
+2025-12-10 18:15:47,276 - opytimizer.opytimizer — INFO — Position: [[5.79967152]
+ [3.92058222]]
+2025-12-10 18:15:47,276 - opytimizer.opytimizer — INFO — Iteration 5/50
+2025-12-10 18:15:47,779 - opytimizer.opytimizer — INFO — Fitness: -5.087850122991303
+2025-12-10 18:15:47,779 - opytimizer.opytimizer — INFO — Position: [[5.79967152]
+ [3.92058222]]
+2025-12-10 18:15:47,779 - opytimizer.opytimizer — INFO — Iteration 6/50
+2025-12-10 18:15:48,277 - opytimizer.opytimizer — INFO — Fitness: -5.087850122991303
+2025-12-10 18:15:48,277 - opytimizer.opytimizer — INFO — Position: [[5.79967152]
+ [3.92058222]]
+2025-12-10 18:15:48,277 - opytimizer.opytimizer — INFO — Iteration 7/50
+2025-12-10 18:15:48,703 - opytimizer.opytimizer — INFO — Fitness: -5.087850122991303
+2025-12-10 18:15:48,703 - opytimizer.opytimizer — INFO — Position: [[5.79967152]
+ [3.92058222]]
+2025-12-10 18:15:48,703 - opytimizer.opytimizer — INFO — Iteration 8/50
+2025-12-10 18:15:49,151 - opytimizer.opytimizer — INFO — Fitness: -6.407228441043928
+2025-12-10 18:15:49,151 - opytimizer.opytimizer — INFO — Position: [[4.81949732]
+ [5.26728492]]
+2025-12-10 18:15:49,151 - opytimizer.opytimizer — INFO — Iteration 9/50
+2025-12-10 18:15:49,592 - opytimizer.opytimizer — INFO — Fitness: -6.407228441043928
+2025-12-10 18:15:49,592 - opytimizer.opytimizer — INFO — Position: [[4.81949732]
+ [5.26728492]]
+2025-12-10 18:15:49,592 - opytimizer.opytimizer — INFO — Iteration 10/50
+2025-12-10 18:15:50,065 - opytimizer.opytimizer — INFO — Fitness: -6.6951540395786
+2025-12-10 18:15:50,066 - opytimizer.opytimizer — INFO — Position: [[5.17022903]
+ [4.8069998 ]]
+2025-12-10 18:15:50,066 - opytimizer.opytimizer — INFO — Iteration 11/50
+2025-12-10 18:15:50,542 - opytimizer.opytimizer — INFO — Fitness: -6.6951540395786
+2025-12-10 18:15:50,542 - opytimizer.opytimizer — INFO — Position: [[5.17022903]
+ [4.8069998 ]]
+2025-12-10 18:15:50,542 - opytimizer.opytimizer — INFO — Iteration 12/50
+2025-12-10 18:15:51,066 - opytimizer.opytimizer — INFO — Fitness: -6.906370267371939
+2025-12-10 18:15:51,066 - opytimizer.opytimizer — INFO — Position: [[4.55610511]
+ [5.44823593]]
+2025-12-10 18:15:51,066 - opytimizer.opytimizer — INFO — Iteration 13/50
+2025-12-10 18:15:51,522 - opytimizer.opytimizer — INFO — Fitness: -6.906370267371939
+2025-12-10 18:15:51,522 - opytimizer.opytimizer — INFO — Position: [[4.55610511]
+ [5.44823593]]
+2025-12-10 18:15:51,522 - opytimizer.opytimizer — INFO — Iteration 14/50
+2025-12-10 18:15:51,969 - opytimizer.opytimizer — INFO — Fitness: -6.906370267371939
+2025-12-10 18:15:51,970 - opytimizer.opytimizer — INFO — Position: [[4.55610511]
+ [5.44823593]]
+2025-12-10 18:15:51,970 - opytimizer.opytimizer — INFO — Iteration 15/50
+2025-12-10 18:15:52,408 - opytimizer.opytimizer — INFO — Fitness: -6.906370267371939
+2025-12-10 18:15:52,408 - opytimizer.opytimizer — INFO — Position: [[4.55610511]
+ [5.44823593]]
+2025-12-10 18:15:52,408 - opytimizer.opytimizer — INFO — Iteration 16/50
+2025-12-10 18:15:52,862 - opytimizer.opytimizer — INFO — Fitness: -6.906370267371939
+2025-12-10 18:15:52,862 - opytimizer.opytimizer — INFO — Position: [[4.55610511]
+ [5.44823593]]
+2025-12-10 18:15:52,862 - opytimizer.opytimizer — INFO — Iteration 17/50
+2025-12-10 18:15:53,327 - opytimizer.opytimizer — INFO — Fitness: -6.906370267371939
+2025-12-10 18:15:53,327 - opytimizer.opytimizer — INFO — Position: [[4.55610511]
+ [5.44823593]]
+2025-12-10 18:15:53,327 - opytimizer.opytimizer — INFO — Iteration 18/50
+2025-12-10 18:15:53,757 - opytimizer.opytimizer — INFO — Fitness: -6.906370267371939
+2025-12-10 18:15:53,757 - opytimizer.opytimizer — INFO — Position: [[4.55610511]
+ [5.44823593]]
+2025-12-10 18:15:53,757 - opytimizer.opytimizer — INFO — Iteration 19/50
+2025-12-10 18:15:54,187 - opytimizer.opytimizer — INFO — Fitness: -6.906370267371939
+2025-12-10 18:15:54,187 - opytimizer.opytimizer — INFO — Position: [[4.55610511]
+ [5.44823593]]
+2025-12-10 18:15:54,187 - opytimizer.opytimizer — INFO — Iteration 20/50
+2025-12-10 18:15:54,630 - opytimizer.opytimizer — INFO — Fitness: -6.943284534046853
+2025-12-10 18:15:54,630 - opytimizer.opytimizer — INFO — Position: [[4.39314568]
+ [5.60688798]]
+2025-12-10 18:15:54,630 - opytimizer.opytimizer — INFO — Iteration 21/50
+2025-12-10 18:15:55,061 - opytimizer.opytimizer — INFO — Fitness: -6.943284534046853
+2025-12-10 18:15:55,061 - opytimizer.opytimizer — INFO — Position: [[4.39314568]
+ [5.60688798]]
+2025-12-10 18:15:55,062 - opytimizer.opytimizer — INFO — Iteration 22/50
+2025-12-10 18:15:55,482 - opytimizer.opytimizer — INFO — Fitness: -6.943284534046853
+2025-12-10 18:15:55,482 - opytimizer.opytimizer — INFO — Position: [[4.39314568]
+ [5.60688798]]
+2025-12-10 18:15:55,482 - opytimizer.opytimizer — INFO — Iteration 23/50
+2025-12-10 18:15:55,919 - opytimizer.opytimizer — INFO — Fitness: -6.945817667057173
+2025-12-10 18:15:55,920 - opytimizer.opytimizer — INFO — Position: [[4.23666882]
+ [5.76387289]]
+2025-12-10 18:15:55,920 - opytimizer.opytimizer — INFO — Iteration 24/50
+2025-12-10 18:15:56,353 - opytimizer.opytimizer — INFO — Fitness: -6.945817667057173
+2025-12-10 18:15:56,353 - opytimizer.opytimizer — INFO — Position: [[4.23666882]
+ [5.76387289]]
+2025-12-10 18:15:56,353 - opytimizer.opytimizer — INFO — Iteration 25/50
+2025-12-10 18:15:56,775 - opytimizer.opytimizer — INFO — Fitness: -6.9477562405106585
+2025-12-10 18:15:56,776 - opytimizer.opytimizer — INFO — Position: [[4.0967289 ]
+ [5.90361031]]
+2025-12-10 18:15:56,776 - opytimizer.opytimizer — INFO — Iteration 26/50
+2025-12-10 18:15:57,206 - opytimizer.opytimizer — INFO — Fitness: -6.948593308833814
+2025-12-10 18:15:57,206 - opytimizer.opytimizer — INFO — Position: [[4.22920151]
+ [5.7707015 ]]
+2025-12-10 18:15:57,206 - opytimizer.opytimizer — INFO — Iteration 27/50
+2025-12-10 18:15:57,635 - opytimizer.opytimizer — INFO — Fitness: -6.949765592530048
+2025-12-10 18:15:57,635 - opytimizer.opytimizer — INFO — Position: [[4.09427292]
+ [5.90572338]]
+2025-12-10 18:15:57,635 - opytimizer.opytimizer — INFO — Iteration 28/50
+2025-12-10 18:15:58,076 - opytimizer.opytimizer — INFO — Fitness: -6.949765592530048
+2025-12-10 18:15:58,076 - opytimizer.opytimizer — INFO — Position: [[4.09427292]
+ [5.90572338]]
+2025-12-10 18:15:58,076 - opytimizer.opytimizer — INFO — Iteration 29/50
+2025-12-10 18:15:58,497 - opytimizer.opytimizer — INFO — Fitness: -6.949765592530048
+2025-12-10 18:15:58,497 - opytimizer.opytimizer — INFO — Position: [[4.09427292]
+ [5.90572338]]
+2025-12-10 18:15:58,497 - opytimizer.opytimizer — INFO — Iteration 30/50
+2025-12-10 18:15:58,939 - opytimizer.opytimizer — INFO — Fitness: -6.949765592530048
+2025-12-10 18:15:58,939 - opytimizer.opytimizer — INFO — Position: [[4.09427292]
+ [5.90572338]]
+2025-12-10 18:15:58,939 - opytimizer.opytimizer — INFO — Iteration 31/50
+2025-12-10 18:15:59,363 - opytimizer.opytimizer — INFO — Fitness: -6.950030405823327
+2025-12-10 18:15:59,363 - opytimizer.opytimizer — INFO — Position: [[4.14510006]
+ [5.85490003]]
+2025-12-10 18:15:59,363 - opytimizer.opytimizer — INFO — Iteration 32/50
+2025-12-10 18:15:59,782 - opytimizer.opytimizer — INFO — Fitness: -6.950030405823327
+2025-12-10 18:15:59,782 - opytimizer.opytimizer — INFO — Position: [[4.14510006]
+ [5.85490003]]
+2025-12-10 18:15:59,782 - opytimizer.opytimizer — INFO — Iteration 33/50
+2025-12-10 18:16:00,247 - opytimizer.opytimizer — INFO — Fitness: -6.950030405823327
+2025-12-10 18:16:00,247 - opytimizer.opytimizer — INFO — Position: [[4.14510006]
+ [5.85490003]]
+2025-12-10 18:16:00,247 - opytimizer.opytimizer — INFO — Iteration 34/50
+2025-12-10 18:16:00,692 - opytimizer.opytimizer — INFO — Fitness: -6.950030405823327
+2025-12-10 18:16:00,692 - opytimizer.opytimizer — INFO — Position: [[4.14510006]
+ [5.85490003]]
+2025-12-10 18:16:00,692 - opytimizer.opytimizer — INFO — Iteration 35/50
+2025-12-10 18:16:01,240 - opytimizer.opytimizer — INFO — Fitness: -6.950030405823327
+2025-12-10 18:16:01,240 - opytimizer.opytimizer — INFO — Position: [[4.14510006]
+ [5.85490003]]
+2025-12-10 18:16:01,240 - opytimizer.opytimizer — INFO — Iteration 36/50
+2025-12-10 18:16:01,678 - opytimizer.opytimizer — INFO — Fitness: -6.950030405823327
+2025-12-10 18:16:01,679 - opytimizer.opytimizer — INFO — Position: [[4.14510006]
+ [5.85490003]]
+2025-12-10 18:16:01,679 - opytimizer.opytimizer — INFO — Iteration 37/50
+2025-12-10 18:16:02,137 - opytimizer.opytimizer — INFO — Fitness: -6.950030405823327
+2025-12-10 18:16:02,137 - opytimizer.opytimizer — INFO — Position: [[4.14510006]
+ [5.85490003]]
+2025-12-10 18:16:02,137 - opytimizer.opytimizer — INFO — Iteration 38/50
+2025-12-10 18:16:02,605 - opytimizer.opytimizer — INFO — Fitness: -6.950030405823327
+2025-12-10 18:16:02,606 - opytimizer.opytimizer — INFO — Position: [[4.14510006]
+ [5.85490003]]
+2025-12-10 18:16:02,606 - opytimizer.opytimizer — INFO — Iteration 39/50
+2025-12-10 18:16:03,036 - opytimizer.opytimizer — INFO — Fitness: -6.950030405823327
+2025-12-10 18:16:03,036 - opytimizer.opytimizer — INFO — Position: [[4.14510006]
+ [5.85490003]]
+2025-12-10 18:16:03,036 - opytimizer.opytimizer — INFO — Iteration 40/50
+2025-12-10 18:16:03,525 - opytimizer.opytimizer — INFO — Fitness: -6.950030405823327
+2025-12-10 18:16:03,526 - opytimizer.opytimizer — INFO — Position: [[4.14510006]
+ [5.85490003]]
+2025-12-10 18:16:03,526 - opytimizer.opytimizer — INFO — Iteration 41/50
+2025-12-10 18:16:03,967 - opytimizer.opytimizer — INFO — Fitness: -6.950030405823327
+2025-12-10 18:16:03,967 - opytimizer.opytimizer — INFO — Position: [[4.14510006]
+ [5.85490003]]
+2025-12-10 18:16:03,967 - opytimizer.opytimizer — INFO — Iteration 42/50
+2025-12-10 18:16:04,389 - opytimizer.opytimizer — INFO — Fitness: -6.950030405823327
+2025-12-10 18:16:04,389 - opytimizer.opytimizer — INFO — Position: [[4.14510006]
+ [5.85490003]]
+2025-12-10 18:16:04,389 - opytimizer.opytimizer — INFO — Iteration 43/50
+2025-12-10 18:16:04,885 - opytimizer.opytimizer — INFO — Fitness: -6.950030405823327
+2025-12-10 18:16:04,885 - opytimizer.opytimizer — INFO — Position: [[4.14510006]
+ [5.85490003]]
+2025-12-10 18:16:04,885 - opytimizer.opytimizer — INFO — Iteration 44/50
+2025-12-10 18:16:05,370 - opytimizer.opytimizer — INFO — Fitness: -6.950030693340887
+2025-12-10 18:16:05,370 - opytimizer.opytimizer — INFO — Position: [[4.14091701]
+ [5.85908294]]
+2025-12-10 18:16:05,370 - opytimizer.opytimizer — INFO — Iteration 45/50
+2025-12-10 18:16:05,808 - opytimizer.opytimizer — INFO — Fitness: -6.950030693340887
+2025-12-10 18:16:05,808 - opytimizer.opytimizer — INFO — Position: [[4.14091701]
+ [5.85908294]]
+2025-12-10 18:16:05,809 - opytimizer.opytimizer — INFO — Iteration 46/50
+2025-12-10 18:16:06,258 - opytimizer.opytimizer — INFO — Fitness: -6.9500308137384375
+2025-12-10 18:16:06,258 - opytimizer.opytimizer — INFO — Position: [[4.13770146]
+ [5.86229857]]
+2025-12-10 18:16:06,258 - opytimizer.opytimizer — INFO — Iteration 47/50
+2025-12-10 18:16:06,692 - opytimizer.opytimizer — INFO — Fitness: -6.9500309722604685
+2025-12-10 18:16:06,692 - opytimizer.opytimizer — INFO — Position: [[4.1461718]
+ [5.8538282]]
+2025-12-10 18:16:06,692 - opytimizer.opytimizer — INFO — Iteration 48/50
+2025-12-10 18:16:07,124 - opytimizer.opytimizer — INFO — Fitness: -6.9500309722604685
+2025-12-10 18:16:07,124 - opytimizer.opytimizer — INFO — Position: [[4.1461718]
+ [5.8538282]]
+2025-12-10 18:16:07,124 - opytimizer.opytimizer — INFO — Iteration 49/50
+2025-12-10 18:16:07,563 - opytimizer.opytimizer — INFO — Fitness: -6.950030993538893
+2025-12-10 18:16:07,563 - opytimizer.opytimizer — INFO — Position: [[4.14611876]
+ [5.85388124]]
+2025-12-10 18:16:07,563 - opytimizer.opytimizer — INFO — Iteration 50/50
+2025-12-10 18:16:08,001 - opytimizer.opytimizer — INFO — Fitness: -6.950030993538893
+2025-12-10 18:16:08,002 - opytimizer.opytimizer — INFO — Position: [[4.14611876]
+ [5.85388124]]
+2025-12-10 18:16:08,002 - opytimizer.opytimizer — INFO — Optimization task ended.
+2025-12-10 18:16:08,002 - opytimizer.opytimizer — INFO — It took 23.019791841506958 seconds.
+2025-12-10 19:07:11,450 - opytimizer.spaces.search — INFO — Overriding class: Space -> SearchSpace.
+2025-12-10 19:07:11,452 - opytimizer.core.space — DEBUG — Agents: 10 | Size: (2, 1) | Lower Bound: [0.001 0.001] | Upper Bound: [10 15] | Mapping: ['x0', 'x1'] | Built: True.
+2025-12-10 19:07:11,452 - opytimizer.spaces.search — INFO — Class overrided.
+2025-12-10 19:07:11,452 - opytimizer.core.optimizer — DEBUG — Algorithm: DE | Custom Parameters: None | Built: True.
+2025-12-10 19:07:11,452 - opytimizer.optimizers.evolutionary.de — INFO — Class overrided.
+2025-12-10 19:07:11,452 - opytimizer.core.function — INFO — Creating class: Function.
+2025-12-10 19:07:11,452 - opytimizer.core.function — DEBUG — Function: fun | Built: True.
+2025-12-10 19:07:11,452 - opytimizer.core.function — INFO — Class created.
+2025-12-10 19:07:11,452 - opytimizer.opytimizer — INFO — Creating class: Opytimizer.
+2025-12-10 19:07:11,452 - opytimizer.opytimizer — DEBUG — Space: <opytimizer.spaces.search.SearchSpace object at 0x1015fb3d0> | Optimizer: <opytimizer.optimizers.evolutionary.de.DE object at 0x137bc4f90>| Function: <opytimizer.core.function.Function object at 0x13080c110>.
+2025-12-10 19:07:11,452 - opytimizer.opytimizer — INFO — Class created.
+2025-12-10 19:07:11,452 - opytimizer.opytimizer — INFO — Starting optimization task.
+2025-12-10 19:07:11,861 - opytimizer.opytimizer — INFO — Iteration 1/50
+2025-12-10 19:07:12,353 - opytimizer.opytimizer — INFO — Fitness: -2.569053910978866
+2025-12-10 19:07:12,353 - opytimizer.opytimizer — INFO — Position: [[4.31424149]
+ [4.57334489]]
+2025-12-10 19:07:12,353 - opytimizer.opytimizer — INFO — Iteration 2/50
+2025-12-10 19:07:12,843 - opytimizer.opytimizer — INFO — Fitness: -5.742463822931986
+2025-12-10 19:07:12,843 - opytimizer.opytimizer — INFO — Position: [[2.17569887]
+ [7.70451498]]
+2025-12-10 19:07:12,843 - opytimizer.opytimizer — INFO — Iteration 3/50
+2025-12-10 19:07:13,309 - opytimizer.opytimizer — INFO — Fitness: -5.742463822931986
+2025-12-10 19:07:13,309 - opytimizer.opytimizer — INFO — Position: [[2.17569887]
+ [7.70451498]]
+2025-12-10 19:07:13,309 - opytimizer.opytimizer — INFO — Iteration 4/50
+2025-12-10 19:07:13,785 - opytimizer.opytimizer — INFO — Fitness: -5.742463822931986
+2025-12-10 19:07:13,785 - opytimizer.opytimizer — INFO — Position: [[2.17569887]
+ [7.70451498]]
+2025-12-10 19:07:13,785 - opytimizer.opytimizer — INFO — Iteration 5/50
+2025-12-10 19:07:14,298 - opytimizer.opytimizer — INFO — Fitness: -5.742463822931986
+2025-12-10 19:07:14,298 - opytimizer.opytimizer — INFO — Position: [[2.17569887]
+ [7.70451498]]
+2025-12-10 19:07:14,298 - opytimizer.opytimizer — INFO — Iteration 6/50
+2025-12-10 19:07:14,773 - opytimizer.opytimizer — INFO — Fitness: -6.197790235072535
+2025-12-10 19:07:14,774 - opytimizer.opytimizer — INFO — Position: [[4.39145023]
+ [5.48829445]]
+2025-12-10 19:07:14,774 - opytimizer.opytimizer — INFO — Iteration 7/50
+2025-12-10 19:07:15,228 - opytimizer.opytimizer — INFO — Fitness: -6.2156067323313255
+2025-12-10 19:07:15,228 - opytimizer.opytimizer — INFO — Position: [[5.15023648]
+ [4.74877721]]
+2025-12-10 19:07:15,228 - opytimizer.opytimizer — INFO — Iteration 8/50
+2025-12-10 19:07:15,691 - opytimizer.opytimizer — INFO — Fitness: -6.2156067323313255
+2025-12-10 19:07:15,691 - opytimizer.opytimizer — INFO — Position: [[5.15023648]
+ [4.74877721]]
+2025-12-10 19:07:15,692 - opytimizer.opytimizer — INFO — Iteration 9/50
+2025-12-10 19:07:16,151 - opytimizer.opytimizer — INFO — Fitness: -6.2156067323313255
+2025-12-10 19:07:16,151 - opytimizer.opytimizer — INFO — Position: [[5.15023648]
+ [4.74877721]]
+2025-12-10 19:07:16,151 - opytimizer.opytimizer — INFO — Iteration 10/50
+2025-12-10 19:07:16,742 - opytimizer.opytimizer — INFO — Fitness: -6.2156067323313255
+2025-12-10 19:07:16,742 - opytimizer.opytimizer — INFO — Position: [[5.15023648]
+ [4.74877721]]
+2025-12-10 19:07:16,742 - opytimizer.opytimizer — INFO — Iteration 11/50
+2025-12-10 19:07:17,254 - opytimizer.opytimizer — INFO — Fitness: -6.684004042436094
+2025-12-10 19:07:17,254 - opytimizer.opytimizer — INFO — Position: [[3.2389674 ]
+ [6.73385571]]
+2025-12-10 19:07:17,254 - opytimizer.opytimizer — INFO — Iteration 12/50
+2025-12-10 19:07:17,733 - opytimizer.opytimizer — INFO — Fitness: -6.684004042436094
+2025-12-10 19:07:17,733 - opytimizer.opytimizer — INFO — Position: [[3.2389674 ]
+ [6.73385571]]
+2025-12-10 19:07:17,733 - opytimizer.opytimizer — INFO — Iteration 13/50
+2025-12-10 19:07:18,239 - opytimizer.opytimizer — INFO — Fitness: -6.684004042436094
+2025-12-10 19:07:18,239 - opytimizer.opytimizer — INFO — Position: [[3.2389674 ]
+ [6.73385571]]
+2025-12-10 19:07:18,239 - opytimizer.opytimizer — INFO — Iteration 14/50
+2025-12-10 19:07:18,691 - opytimizer.opytimizer — INFO — Fitness: -6.684004042436094
+2025-12-10 19:07:18,691 - opytimizer.opytimizer — INFO — Position: [[3.2389674 ]
+ [6.73385571]]
+2025-12-10 19:07:18,691 - opytimizer.opytimizer — INFO — Iteration 15/50
+2025-12-10 19:07:19,142 - opytimizer.opytimizer — INFO — Fitness: -6.858880454596462
+2025-12-10 19:07:19,142 - opytimizer.opytimizer — INFO — Position: [[3.25837636]
+ [6.74185897]]
+2025-12-10 19:07:19,142 - opytimizer.opytimizer — INFO — Iteration 16/50
+2025-12-10 19:07:19,600 - opytimizer.opytimizer — INFO — Fitness: -6.858880454596462
+2025-12-10 19:07:19,600 - opytimizer.opytimizer — INFO — Position: [[3.25837636]
+ [6.74185897]]
+2025-12-10 19:07:19,600 - opytimizer.opytimizer — INFO — Iteration 17/50
+2025-12-10 19:07:20,054 - opytimizer.opytimizer — INFO — Fitness: -6.858880454596462
+2025-12-10 19:07:20,054 - opytimizer.opytimizer — INFO — Position: [[3.25837636]
+ [6.74185897]]
+2025-12-10 19:07:20,054 - opytimizer.opytimizer — INFO — Iteration 18/50
+2025-12-10 19:07:20,511 - opytimizer.opytimizer — INFO — Fitness: -6.858880454596462
+2025-12-10 19:07:20,511 - opytimizer.opytimizer — INFO — Position: [[3.25837636]
+ [6.74185897]]
+2025-12-10 19:07:20,511 - opytimizer.opytimizer — INFO — Iteration 19/50
+2025-12-10 19:07:20,955 - opytimizer.opytimizer — INFO — Fitness: -6.91970951920254
+2025-12-10 19:07:20,962 - opytimizer.opytimizer — INFO — Position: [[3.98730983]
+ [6.00844576]]
+2025-12-10 19:07:20,962 - opytimizer.opytimizer — INFO — Iteration 20/50
+2025-12-10 19:07:21,422 - opytimizer.opytimizer — INFO — Fitness: -6.91970951920254
+2025-12-10 19:07:21,422 - opytimizer.opytimizer — INFO — Position: [[3.98730983]
+ [6.00844576]]
+2025-12-10 19:07:21,422 - opytimizer.opytimizer — INFO — Iteration 21/50
+2025-12-10 19:07:21,863 - opytimizer.opytimizer — INFO — Fitness: -6.91970951920254
+2025-12-10 19:07:21,863 - opytimizer.opytimizer — INFO — Position: [[3.98730983]
+ [6.00844576]]
+2025-12-10 19:07:21,863 - opytimizer.opytimizer — INFO — Iteration 22/50
+2025-12-10 19:07:22,325 - opytimizer.opytimizer — INFO — Fitness: -6.91970951920254
+2025-12-10 19:07:22,325 - opytimizer.opytimizer — INFO — Position: [[3.98730983]
+ [6.00844576]]
+2025-12-10 19:07:22,325 - opytimizer.opytimizer — INFO — Iteration 23/50
+2025-12-10 19:07:22,799 - opytimizer.opytimizer — INFO — Fitness: -6.91970951920254
+2025-12-10 19:07:22,799 - opytimizer.opytimizer — INFO — Position: [[3.98730983]
+ [6.00844576]]
+2025-12-10 19:07:22,799 - opytimizer.opytimizer — INFO — Iteration 24/50
+2025-12-10 19:07:23,247 - opytimizer.opytimizer — INFO — Fitness: -6.91970951920254
+2025-12-10 19:07:23,247 - opytimizer.opytimizer — INFO — Position: [[3.98730983]
+ [6.00844576]]
+2025-12-10 19:07:23,247 - opytimizer.opytimizer — INFO — Iteration 25/50
+2025-12-10 19:07:23,701 - opytimizer.opytimizer — INFO — Fitness: -6.91970951920254
+2025-12-10 19:07:23,701 - opytimizer.opytimizer — INFO — Position: [[3.98730983]
+ [6.00844576]]
+2025-12-10 19:07:23,701 - opytimizer.opytimizer — INFO — Iteration 26/50
+2025-12-10 19:07:24,152 - opytimizer.opytimizer — INFO — Fitness: -6.91970951920254
+2025-12-10 19:07:24,152 - opytimizer.opytimizer — INFO — Position: [[3.98730983]
+ [6.00844576]]
+2025-12-10 19:07:24,152 - opytimizer.opytimizer — INFO — Iteration 27/50
+2025-12-10 19:07:24,598 - opytimizer.opytimizer — INFO — Fitness: -6.91970951920254
+2025-12-10 19:07:24,598 - opytimizer.opytimizer — INFO — Position: [[3.98730983]
+ [6.00844576]]
+2025-12-10 19:07:24,598 - opytimizer.opytimizer — INFO — Iteration 28/50
+2025-12-10 19:07:25,039 - opytimizer.opytimizer — INFO — Fitness: -6.925060332937351
+2025-12-10 19:07:25,039 - opytimizer.opytimizer — INFO — Position: [[4.15129466]
+ [5.84490035]]
+2025-12-10 19:07:25,039 - opytimizer.opytimizer — INFO — Iteration 29/50
+2025-12-10 19:07:25,482 - opytimizer.opytimizer — INFO — Fitness: -6.927472604245075
+2025-12-10 19:07:25,482 - opytimizer.opytimizer — INFO — Position: [[3.90749905]
+ [6.0952467 ]]
+2025-12-10 19:07:25,482 - opytimizer.opytimizer — INFO — Iteration 30/50
+2025-12-10 19:07:25,961 - opytimizer.opytimizer — INFO — Fitness: -6.944420259929706
+2025-12-10 19:07:25,961 - opytimizer.opytimizer — INFO — Position: [[4.09111475]
+ [5.90976496]]
+2025-12-10 19:07:25,961 - opytimizer.opytimizer — INFO — Iteration 31/50
+2025-12-10 19:07:26,422 - opytimizer.opytimizer — INFO — Fitness: -6.944420259929706
+2025-12-10 19:07:26,422 - opytimizer.opytimizer — INFO — Position: [[4.09111475]
+ [5.90976496]]
+2025-12-10 19:07:26,422 - opytimizer.opytimizer — INFO — Iteration 32/50
+2025-12-10 19:07:26,869 - opytimizer.opytimizer — INFO — Fitness: -6.944420259929706
+2025-12-10 19:07:26,869 - opytimizer.opytimizer — INFO — Position: [[4.09111475]
+ [5.90976496]]
+2025-12-10 19:07:26,869 - opytimizer.opytimizer — INFO — Iteration 33/50
+2025-12-10 19:07:27,332 - opytimizer.opytimizer — INFO — Fitness: -6.947108410997536
+2025-12-10 19:07:27,332 - opytimizer.opytimizer — INFO — Position: [[4.09751292]
+ [5.90293408]]
+2025-12-10 19:07:27,332 - opytimizer.opytimizer — INFO — Iteration 34/50
+2025-12-10 19:07:27,791 - opytimizer.opytimizer — INFO — Fitness: -6.947108410997536
+2025-12-10 19:07:27,791 - opytimizer.opytimizer — INFO — Position: [[4.09751292]
+ [5.90293408]]
+2025-12-10 19:07:27,791 - opytimizer.opytimizer — INFO — Iteration 35/50
+2025-12-10 19:07:28,263 - opytimizer.opytimizer — INFO — Fitness: -6.949500975777923
+2025-12-10 19:07:28,263 - opytimizer.opytimizer — INFO — Position: [[4.10227074]
+ [5.89767322]]
+2025-12-10 19:07:28,263 - opytimizer.opytimizer — INFO — Iteration 36/50
+2025-12-10 19:07:28,703 - opytimizer.opytimizer — INFO — Fitness: -6.949500975777923
+2025-12-10 19:07:28,703 - opytimizer.opytimizer — INFO — Position: [[4.10227074]
+ [5.89767322]]
+2025-12-10 19:07:28,703 - opytimizer.opytimizer — INFO — Iteration 37/50
+2025-12-10 19:07:29,184 - opytimizer.opytimizer — INFO — Fitness: -6.949500975777923
+2025-12-10 19:07:29,184 - opytimizer.opytimizer — INFO — Position: [[4.10227074]
+ [5.89767322]]
+2025-12-10 19:07:29,184 - opytimizer.opytimizer — INFO — Iteration 38/50
+2025-12-10 19:07:29,631 - opytimizer.opytimizer — INFO — Fitness: -6.949690761504399
+2025-12-10 19:07:29,631 - opytimizer.opytimizer — INFO — Position: [[4.1045346 ]
+ [5.89549662]]
+2025-12-10 19:07:29,631 - opytimizer.opytimizer — INFO — Iteration 39/50
+2025-12-10 19:07:30,059 - opytimizer.opytimizer — INFO — Fitness: -6.949695900950665
+2025-12-10 19:07:30,059 - opytimizer.opytimizer — INFO — Position: [[4.10769076]
+ [5.89234487]]
+2025-12-10 19:07:30,059 - opytimizer.opytimizer — INFO — Iteration 40/50
+2025-12-10 19:07:30,528 - opytimizer.opytimizer — INFO — Fitness: -6.9499540777723015
+2025-12-10 19:07:30,528 - opytimizer.opytimizer — INFO — Position: [[4.11712434]
+ [5.88287739]]
+2025-12-10 19:07:30,528 - opytimizer.opytimizer — INFO — Iteration 41/50
+2025-12-10 19:07:30,978 - opytimizer.opytimizer — INFO — Fitness: -6.949980513205059
+2025-12-10 19:07:30,978 - opytimizer.opytimizer — INFO — Position: [[4.1457902 ]
+ [5.85420181]]
+2025-12-10 19:07:30,978 - opytimizer.opytimizer — INFO — Iteration 42/50
+2025-12-10 19:07:31,432 - opytimizer.opytimizer — INFO — Fitness: -6.949980513205059
+2025-12-10 19:07:31,432 - opytimizer.opytimizer — INFO — Position: [[4.1457902 ]
+ [5.85420181]]
+2025-12-10 19:07:31,432 - opytimizer.opytimizer — INFO — Iteration 43/50
+2025-12-10 19:07:31,925 - opytimizer.opytimizer — INFO — Fitness: -6.949980513205059
+2025-12-10 19:07:31,926 - opytimizer.opytimizer — INFO — Position: [[4.1457902 ]
+ [5.85420181]]
+2025-12-10 19:07:31,926 - opytimizer.opytimizer — INFO — Iteration 44/50
+2025-12-10 19:07:32,387 - opytimizer.opytimizer — INFO — Fitness: -6.949980513205059
+2025-12-10 19:07:32,387 - opytimizer.opytimizer — INFO — Position: [[4.1457902 ]
+ [5.85420181]]
+2025-12-10 19:07:32,387 - opytimizer.opytimizer — INFO — Iteration 45/50
+2025-12-10 19:07:32,849 - opytimizer.opytimizer — INFO — Fitness: -6.949980513205059
+2025-12-10 19:07:32,850 - opytimizer.opytimizer — INFO — Position: [[4.1457902 ]
+ [5.85420181]]
+2025-12-10 19:07:32,850 - opytimizer.opytimizer — INFO — Iteration 46/50
+2025-12-10 19:07:33,351 - opytimizer.opytimizer — INFO — Fitness: -6.950019610934343
+2025-12-10 19:07:33,351 - opytimizer.opytimizer — INFO — Position: [[4.15183512]
+ [5.84816482]]
+2025-12-10 19:07:33,351 - opytimizer.opytimizer — INFO — Iteration 47/50
+2025-12-10 19:07:33,836 - opytimizer.opytimizer — INFO — Fitness: -6.950019610934343
+2025-12-10 19:07:33,836 - opytimizer.opytimizer — INFO — Position: [[4.15183512]
+ [5.84816482]]
+2025-12-10 19:07:33,836 - opytimizer.opytimizer — INFO — Iteration 48/50
+2025-12-10 19:07:34,275 - opytimizer.opytimizer — INFO — Fitness: -6.950019610934343
+2025-12-10 19:07:34,275 - opytimizer.opytimizer — INFO — Position: [[4.15183512]
+ [5.84816482]]
+2025-12-10 19:07:34,275 - opytimizer.opytimizer — INFO — Iteration 49/50
+2025-12-10 19:07:34,737 - opytimizer.opytimizer — INFO — Fitness: -6.950020266214224
+2025-12-10 19:07:34,737 - opytimizer.opytimizer — INFO — Position: [[4.13644723]
+ [5.86355107]]
+2025-12-10 19:07:34,737 - opytimizer.opytimizer — INFO — Iteration 50/50
+2025-12-10 19:07:35,212 - opytimizer.opytimizer — INFO — Fitness: -6.9500301556567585
+2025-12-10 19:07:35,212 - opytimizer.opytimizer — INFO — Position: [[4.13583481]
+ [5.86416506]]
+2025-12-10 19:07:35,212 - opytimizer.opytimizer — INFO — Optimization task ended.
+2025-12-10 19:07:35,212 - opytimizer.opytimizer — INFO — It took 23.75985097885132 seconds.

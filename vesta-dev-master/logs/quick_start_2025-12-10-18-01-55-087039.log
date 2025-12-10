@@ -1,0 +1,50 @@
+[2025-12-10 18:01:55,087][quick_start][INFO][color_logger.py:203] Logfile: /Users/mac/Desktop/Imperial doc/vesta-dev-master 2/logs/quick_start_2025-12-10-18-01-55-087039.log
+[2025-12-10 18:01:55,094][quick_start][INFO][generic_advisor.py:227] [BO auto selection]  surrogate_type: gp. acq_type: eic. acq_optimizer_type: random_scipy.
+[2025-12-10 18:01:55,478][quick_start][ERROR][generic_smbo.py:290] Exception in objective function:
+Traceback (most recent call last):
+  File "/Users/mac/miniforge3/envs/vesta/lib/python3.11/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/Imperial doc/vesta-dev-master 2/bench/bench_openbox.py", line 11, in fun
+    c1 = np.exp(abs(10 - x1 - x2))
+         ^^
+NameError: name 'np' is not defined
+
+config: Configuration(values={
+  'x1': 0.001,
+  'x2': 0.001,
+})
+
+[2025-12-10 18:01:55,479][quick_start][INFO][generic_smbo.py:308] Iter 1, objectives: [inf]. constraints: None.
+[2025-12-10 18:01:55,523][quick_start][ERROR][generic_smbo.py:290] Exception in objective function:
+Traceback (most recent call last):
+  File "/Users/mac/miniforge3/envs/vesta/lib/python3.11/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/Imperial doc/vesta-dev-master 2/bench/bench_openbox.py", line 11, in fun
+    c1 = np.exp(abs(10 - x1 - x2))
+         ^^
+NameError: name 'np' is not defined
+
+config: Configuration(values={
+  'x1': 9.950006773581874,
+  'x2': 14.393658835081446,
+})
+
+[2025-12-10 18:01:55,523][quick_start][INFO][generic_smbo.py:308] Iter 2, objectives: [inf]. constraints: None.
+[2025-12-10 18:01:55,557][quick_start][ERROR][generic_smbo.py:290] Exception in objective function:
+Traceback (most recent call last):
+  File "/Users/mac/miniforge3/envs/vesta/lib/python3.11/site-packages/openbox/utils/limit.py", line 62, in run_without_time_limit
+    ret = obj_func(*obj_args, **obj_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/Imperial doc/vesta-dev-master 2/bench/bench_openbox.py", line 11, in fun
+    c1 = np.exp(abs(10 - x1 - x2))
+         ^^
+NameError: name 'np' is not defined
+
+config: Configuration(values={
+  'x1': 9.710903921664233,
+  'x2': 0.00468395655793254,
+})
+
+[2025-12-10 18:01:55,557][quick_start][INFO][generic_smbo.py:308] Iter 3, objectives: [inf]. constraints: None.

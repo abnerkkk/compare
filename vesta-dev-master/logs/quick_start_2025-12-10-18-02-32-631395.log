@@ -1,0 +1,100 @@
+[2025-12-10 18:02:32,631][quick_start][INFO][color_logger.py:203] Logfile: /Users/mac/Desktop/Imperial doc/vesta-dev-master 2/logs/quick_start_2025-12-10-18-02-32-631395.log
+[2025-12-10 18:02:32,636][quick_start][INFO][generic_advisor.py:227] [BO auto selection]  surrogate_type: gp. acq_type: eic. acq_optimizer_type: random_scipy.
+[2025-12-10 18:02:32,813][quick_start][INFO][generic_smbo.py:308] Iter 1, objectives: [-0.000666223]. constraints: [21982.456886794775].
+[2025-12-10 18:02:32,843][quick_start][INFO][generic_smbo.py:308] Iter 2, objectives: [-0.794735]. constraints: [410107.3488556482].
+[2025-12-10 18:02:32,871][quick_start][INFO][generic_smbo.py:308] Iter 3, objectives: [-0.567728]. constraints: [9.164619233750537].
+[2025-12-10 18:02:32,939][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:33,125][quick_start][INFO][generic_smbo.py:308] Iter 4, objectives: [-0.63455]. constraints: [51.38692066502445].
+[2025-12-10 18:02:33,165][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:33,255][quick_start][INFO][generic_smbo.py:308] Iter 5, objectives: [-0.685584]. constraints: [15.38273381311339].
+[2025-12-10 18:02:33,301][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:33,389][quick_start][INFO][generic_smbo.py:308] Iter 6, objectives: [-0.415245]. constraints: [29.540764601484234].
+[2025-12-10 18:02:33,390][quick_start][INFO][generic_advisor.py:467] Sample random config. rand_prob=0.100000.
+[2025-12-10 18:02:33,416][quick_start][INFO][generic_smbo.py:308] Iter 7, objectives: [-0.45084]. constraints: [5.396708438646593].
+[2025-12-10 18:02:33,417][quick_start][INFO][generic_advisor.py:467] Sample random config. rand_prob=0.100000.
+[2025-12-10 18:02:33,451][quick_start][INFO][generic_smbo.py:308] Iter 8, objectives: [-0.566886]. constraints: [8.437416176715864].
+[2025-12-10 18:02:33,510][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:33,687][quick_start][INFO][generic_smbo.py:308] Iter 9, objectives: [-0.287746]. constraints: [53.9338994532601].
+[2025-12-10 18:02:33,747][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:33,910][quick_start][INFO][generic_smbo.py:308] Iter 10, objectives: [-0.770495]. constraints: [14604.775657671054].
+[2025-12-10 18:02:33,995][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:34,225][quick_start][INFO][generic_smbo.py:308] Iter 11, objectives: [-0.406565]. constraints: [17.14552483330211].
+[2025-12-10 18:02:34,225][quick_start][INFO][generic_advisor.py:467] Sample random config. rand_prob=0.100000.
+[2025-12-10 18:02:34,272][quick_start][INFO][generic_smbo.py:308] Iter 12, objectives: [-0.581389]. constraints: [11.800006301462096].
+[2025-12-10 18:02:34,342][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:34,489][quick_start][INFO][generic_smbo.py:308] Iter 13, objectives: [-0.182483]. constraints: [4040.396022848237].
+[2025-12-10 18:02:34,557][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:34,714][quick_start][INFO][generic_smbo.py:308] Iter 14, objectives: [-0.367528]. constraints: [658.9117511875503].
+[2025-12-10 18:02:34,780][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:34,959][quick_start][INFO][generic_smbo.py:308] Iter 15, objectives: [-0.528637]. constraints: [30.83289670700766].
+[2025-12-10 18:02:35,058][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:35,257][quick_start][INFO][generic_smbo.py:308] Iter 16, objectives: [-0.750489]. constraints: [3119.1301274985717].
+[2025-12-10 18:02:35,342][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:35,544][quick_start][INFO][generic_smbo.py:308] Iter 17, objectives: [-0.293168]. constraints: [1505.6548707267561].
+[2025-12-10 18:02:35,640][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:35,825][quick_start][INFO][generic_smbo.py:308] Iter 18, objectives: [-0.574954]. constraints: [406.3096466567786].
+[2025-12-10 18:02:35,825][quick_start][INFO][generic_advisor.py:467] Sample random config. rand_prob=0.100000.
+[2025-12-10 18:02:35,941][quick_start][INFO][generic_smbo.py:308] Iter 19, objectives: [-0.798115]. constraints: [460425.11126148334].
+[2025-12-10 18:02:36,018][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:36,252][quick_start][INFO][generic_smbo.py:308] Iter 20, objectives: [-0.70757]. constraints: [190.35927879619328].
+[2025-12-10 18:02:36,342][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:36,519][quick_start][INFO][generic_smbo.py:308] Iter 21, objectives: [-0.212318]. constraints: [27.704981591346353].
+[2025-12-10 18:02:36,694][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:36,861][quick_start][INFO][generic_smbo.py:308] Iter 22, objectives: [-0.240783]. constraints: [6.270563974129532].
+[2025-12-10 18:02:36,947][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:37,138][quick_start][INFO][generic_smbo.py:308] Iter 23, objectives: [-0.7422]. constraints: [2111.0660646498795].
+[2025-12-10 18:02:37,298][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:37,534][quick_start][INFO][generic_smbo.py:308] Iter 24, objectives: [-0.680293]. constraints: [785.0673878209785].
+[2025-12-10 18:02:37,613][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:37,788][quick_start][INFO][generic_smbo.py:308] Iter 25, objectives: [-0.683425]. constraints: [18.07551549462301].
+[2025-12-10 18:02:37,789][quick_start][INFO][generic_advisor.py:467] Sample random config. rand_prob=0.100000.
+[2025-12-10 18:02:37,838][quick_start][INFO][generic_smbo.py:308] Iter 26, objectives: [-0.712297]. constraints: [415.9426545534499].
+[2025-12-10 18:02:37,952][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:38,189][quick_start][INFO][generic_smbo.py:308] Iter 27, objectives: [-0.620585]. constraints: [8.796685205243149].
+[2025-12-10 18:02:38,272][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:38,510][quick_start][INFO][generic_smbo.py:308] Iter 28, objectives: [-0.704589]. constraints: [49.83526663054291].
+[2025-12-10 18:02:38,617][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:38,798][quick_start][INFO][generic_smbo.py:308] Iter 29, objectives: [-0.564041]. constraints: [11.46884968190896].
+[2025-12-10 18:02:38,910][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:39,073][quick_start][INFO][generic_smbo.py:308] Iter 30, objectives: [-0.470989]. constraints: [7.337098312052297].
+[2025-12-10 18:02:39,175][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:39,409][quick_start][INFO][generic_smbo.py:308] Iter 31, objectives: [-0.146439]. constraints: [59.14464618065566].
+[2025-12-10 18:02:39,517][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:39,701][quick_start][INFO][generic_smbo.py:308] Iter 32, objectives: [-0.00686578]. constraints: [850.2086148271015].
+[2025-12-10 18:02:39,825][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:40,023][quick_start][INFO][generic_smbo.py:308] Iter 33, objectives: [-0.65073]. constraints: [13.25070213639999].
+[2025-12-10 18:02:40,158][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:40,371][quick_start][INFO][generic_smbo.py:308] Iter 34, objectives: [-0.529073]. constraints: [11.342463899314394].
+[2025-12-10 18:02:40,641][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:40,912][quick_start][INFO][generic_smbo.py:308] Iter 35, objectives: [-0.597993]. constraints: [1.0541846433673854].
+[2025-12-10 18:02:41,048][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:41,304][quick_start][INFO][generic_smbo.py:308] Iter 36, objectives: [-0.393495]. constraints: [9.49427136849193].
+[2025-12-10 18:02:41,465][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:41,676][quick_start][INFO][generic_smbo.py:308] Iter 37, objectives: [-0.663293]. constraints: [6.652904071923053].
+[2025-12-10 18:02:41,905][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:42,182][quick_start][INFO][generic_smbo.py:308] Iter 38, objectives: [-0.688711]. constraints: [69.17900047134442].
+[2025-12-10 18:02:42,182][quick_start][INFO][generic_advisor.py:467] Sample random config. rand_prob=0.100000.
+[2025-12-10 18:02:42,207][quick_start][INFO][generic_smbo.py:308] Iter 39, objectives: [-0.738046]. constraints: [1295.0427512799665].
+[2025-12-10 18:02:42,544][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:42,789][quick_start][INFO][generic_smbo.py:308] Iter 40, objectives: [-0.195978]. constraints: [3.492758209380151].
+[2025-12-10 18:02:42,974][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:43,247][quick_start][INFO][generic_smbo.py:308] Iter 41, objectives: [-0.659371]. constraints: [3.76741292655756].
+[2025-12-10 18:02:43,369][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:43,617][quick_start][INFO][generic_smbo.py:308] Iter 42, objectives: [-0.642374]. constraints: [46.17812960594255].
+[2025-12-10 18:02:43,772][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:44,012][quick_start][INFO][generic_smbo.py:308] Iter 43, objectives: [-0.535804]. constraints: [4.3452410818841765].
+[2025-12-10 18:02:44,200][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:44,467][quick_start][INFO][generic_smbo.py:308] Iter 44, objectives: [-0.767882]. constraints: [26385.459697755115].
+[2025-12-10 18:02:44,622][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:44,870][quick_start][INFO][generic_smbo.py:308] Iter 45, objectives: [-0.742267]. constraints: [15426.495580957833].
+[2025-12-10 18:02:45,075][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:45,307][quick_start][INFO][generic_smbo.py:308] Iter 46, objectives: [-0.524969]. constraints: [12.278368259096206].
+[2025-12-10 18:02:45,520][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:45,826][quick_start][INFO][generic_smbo.py:308] Iter 47, objectives: [-0.413781]. constraints: [4.222306234279534].
+[2025-12-10 18:02:46,223][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:46,493][quick_start][INFO][generic_smbo.py:308] Iter 48, objectives: [-0.517577]. constraints: [6.749026419271274].
+[2025-12-10 18:02:46,724][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:46,990][quick_start][INFO][generic_smbo.py:308] Iter 49, objectives: [-0.678405]. constraints: [11.389521465115717].
+[2025-12-10 18:02:47,148][quick_start][WARNING][history.py:587] No feasible observations! Return np.inf as incumbent value.
+[2025-12-10 18:02:47,366][quick_start][INFO][generic_smbo.py:308] Iter 50, objectives: [-0.0639297]. constraints: [14.326757721646668].
+[2025-12-10 18:02:47,371][quick_start][WARNING][history.py:559] No feasible incumbent observations returned!

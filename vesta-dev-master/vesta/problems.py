@@ -10,6 +10,11 @@ def _get_vesta_classes():
     import vesta
     return vesta.ServiceTopology, vesta.Host, vesta.Container, vesta.Service, vesta.SynchCaller
 
+    # •	ServiceTopology：整个 LQN 模型容器（JLINE 的 LayeredNetwork / LQN model）
+	# •	Host：更接近 LQN 的 processor（有 cores/multiplicity、调度策略 ps 等）
+	# •	Container：更接近 LQN 的 task（部署在 processor 上）
+	# •	Service：更接近 LQN 的 entry + activity（vesta 会帮你生成 entry，并生成一个 compute activity，比如 service1_compute）
+	# •	SynchCaller：ref task/用户类（参考任务），代表外部请求源；它会产生一个“caller host + ref task”，并用 DAG 表达同步调用链
 
 # 2-variable throughput maximization
 def opt_lqn_2(x, display=False):
@@ -28,6 +33,7 @@ def opt_lqn_2(x, display=False):
     container1.on(host1)
     container2.on(host2)
     topology.solve()
+    # throughput
     t = users.tput()
     if display:
         print(t)

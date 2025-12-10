@@ -1,3 +1,5 @@
+import os, sys, time
+sys.path.insert(0, os.path.abspath("."))
 from vesta import *
 from sko.PSO import PSO
 from sko.DE import DE
@@ -21,8 +23,8 @@ constraint_eq = [
 if __name__ == '__main__':
     tic = time.perf_counter()
     opt = DE(func=fun, n_dim=2, size_pop=4, max_iter=2, lb=[0.001, 0.001], ub=[10, 15], constraint_eq=constraint_eq)
-    opt.run()
-    print('best_x is ', opt.best_x, 'best_y is', opt.best_y)
+    best_x, best_y = opt.run()
+    print('best_x is', best_x, 'best_y is', best_y)
     toc = time.perf_counter()
     print(f"Time: {toc - tic:0.4f} seconds")
     print(fun((5,5)))

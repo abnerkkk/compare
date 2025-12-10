@@ -1,8 +1,11 @@
-import math
-from functools import partial
+import os, sys
+sys.path.insert(0, os.path.abspath("."))
 from vesta import *
 from scipy.optimize import *
+from line_solver import Exp, Erlang
 import time
+import math
+import numpy as np
 
 if not sys.warnoptions:
     import warnings

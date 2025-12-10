@@ -1,3 +1,5 @@
+import os, sys, time
+sys.path.insert(0, os.path.abspath("."))
 from vesta import *
 from scipy.optimize import *
 import time

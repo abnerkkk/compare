@@ -12,6 +12,9 @@ networkx
 #opytimizer
 #scikit-opt
 #websocket
-smt
+smt==2.7.0
+jenn==1.0.8
 pyDOE3
 scipy
+bayesian-optimization===1.4.3 
+nevergrad==1.0.3

@@ -1,5 +1,7 @@
 import numpy as np
 import time
+import os, sys
+sys.path.insert(0, os.path.abspath("."))
 from vesta import *
 from smt.applications import EGO
 from smt.surrogate_models import KRG, KPLS
@@ -64,7 +66,6 @@ design_space = DesignSpace(
         IntegerVariable(1, 9),
         IntegerVariable(1, 10),
     ],
-    seed=seed,
 )
 mixint = MixedIntegerContext(design_space)
 n_doe = 3 * len(design_space.design_variables)

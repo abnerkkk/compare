@@ -1,45 +1,34 @@
-import warnings
+import os, sys, time
+sys.path.insert(0, os.path.abspath("."))
 from vesta import *
 import nevergrad as ng
-import time
 
-# Does not work for some reason due to topology.solve()
+def project(x):
+    # enforce bounds + (optional) exact sum constraint by projection
+    x0 = float(x[0])
+    x0 = min(max(x0, 0.0), 10.0)
+    x1 = 10.0 - x0
+    return (x0, x1)
 
-# Define Objective Function
 def fun(x):
-    t = opt_lqn_2(x)
-    y = -t #(-t - np.exp(-np.abs(10 - sum(x))))
-    return y
+    x0, x1 = project(x)
+    # if you want soft constraint instead, comment project() and do penalty
+    t = opt_lqn_2((x0, x1))
+    return -t
 
-# Run
 if __name__ == '__main__':
     tic = time.perf_counter()
-    # optimization on x as an array of shape (2,)
-    #instrum = ng.p.Instrumentation(
-    #    ng.p.Array(shape=(2,)).set_bounds(lower=0.0, upper=15),
-    #)
-    # Initialize NGOpt optimizer
-    optimizer = ng.optimizers.NGOpt(parametrization=2, budget=10)
 
-    #optimizer = ng.optimizers.NGOpt(parametrization=instrum, budget=50)
-    optimizer.parametrization.register_cheap_constraint(lambda x: sum(x) == 10)
-    optimizer.parametrization.register_cheap_constraint(lambda x: x[0] >= 0)
-    optimizer.parametrization.register_cheap_constraint(lambda x: x[1] >= 0)
-    optimizer.parametrization.register_cheap_constraint(lambda x: x[0] <= 10)
-    optimizer.parametrization.register_cheap_constraint(lambda x: x[1] <= 15)
+    # 1D search is enough because x1 is determined by x0
+    instrum = ng.p.Scalar(lower=0.0, upper=10.0)  # x0
+    optimizer = ng.optimizers.NGOpt(parametrization=instrum, budget=10)
 
-    recommendation = optimizer.minimize(fun, verbosity=2)
-    print(recommendation.value)
+    recommendation = optimizer.minimize(lambda x0: fun((x0, 0.0)), verbosity=2)
 
-    #optimizer = ng.optimizers.OnePlusOne(parametrization=instrum, budget=50)
-    #optimizer = ng.optimizers.ScrHammersleySearchPlusMiddlePoint(parametrization=instrum, budget=50)
-    #optimizer = ng.optimizers.PSO(parametrization=instrum, budget=50)
-    #optimizer = ng.optimizers.PortfolioDiscreteOnePlusOne(parametrization=instrum, budget=50)
-    #optimizer = ng.optimizers.CMA(parametrization=3, budget=100)
-    #recommendation = optimizer.minimize(fun)
-    #print(recommendation.value)
-    x0=recommendation.value[0][0][0]
-    x1=recommendation.value[0][0][1]
-    print(fun((x0,x1)))
+    x0 = float(recommendation.value)
+    x0, x1 = project((x0, 0.0))
+    print("best (x0,x1) =", (x0, x1))
+    print("objective =", fun((x0, x1)))
+
     toc = time.perf_counter()
     print(f"Time: {toc - tic:0.4f} seconds")

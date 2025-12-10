@@ -1,5 +1,8 @@
+import os, sys
+sys.path.insert(0, os.path.abspath("."))
 from vesta import *
 from scipy.optimize import *
+from line_solver import Exp, Erlang
 import time
 
 if not sys.warnoptions:
@@ -9,7 +12,8 @@ if not sys.warnoptions:
 # Define Objective Function
 def fun(x):
     topology = ServiceTopology("topology")
-    host1 = Host(topology, "host1", cores=x[3])
+    cores = max(1, int(round(x[3])))
+    host1 = Host(topology, "host1", cores=cores)
     host2 = Host(topology, "host2")
     container1 = Container(topology, "container1")
     container2 = Container(topology, "container2")

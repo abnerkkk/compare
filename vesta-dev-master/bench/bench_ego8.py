@@ -1,5 +1,7 @@
 import numpy as np
 import time
+import os, sys
+sys.path.insert(0, os.path.abspath("."))
 from vesta import *
 from smt.applications import EGO
 from smt.surrogate_models import KRG, KPLS
@@ -35,12 +37,11 @@ design_space = DesignSpace(
         FloatVariable(0, 15),
         FloatVariable(0, 20),
         FloatVariable(0, 25),
-        IntegerVariable(1, 2),
-        IntegerVariable(1, 5),
-        IntegerVariable(2, 5),
-        IntegerVariable(2, 4),
+        IntegerVariable(1, 2),# x4 ∈ {1,2}    -> host1 cores
+        IntegerVariable(1, 5),# x5 ∈ {1..5}   -> host2 cores
+        IntegerVariable(2, 5),# x6 ∈ {2..5}   -> host3 cores
+        IntegerVariable(2, 4),# x7 ∈ {2..4}   -> host4 cores
     ],
-    seed=seed,
 )
 mixint = MixedIntegerContext(design_space)
 n_doe = 8 * len(design_space.design_variables)

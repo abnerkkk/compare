@@ -1,5 +1,8 @@
 import numpy as np
 import time
+import os, sys
+print("system path:", os.environ["PATH"])
+sys.path.insert(0, os.path.abspath("."))  # bench 的上一级
 from vesta import *
 from smt.applications import EGO
 from smt.surrogate_models import KRG, KPLS
@@ -15,19 +18,19 @@ def fun(X):
         x1 = X[j, 1]
         t = opt_lqn_2((x0, x1))
         rho = 10
-        y[j] = t * (1 + rho * np.exp(-abs(10 - x0 - x1)))
+        y[j] = -t * (1 + rho * np.exp(-abs(10 - x0 - x1)))
     return y.reshape((-1, 1))
 
 print("Sampling...")
 tic = time.time()
 n_iter = 8
 seed = 3  # for reproducibility
+np.random.seed(seed)
 design_space = DesignSpace(
     [
-        FloatVariable(0, 10),
+        FloatVariable(0, 10),# 决策变量
         FloatVariable(0, 15),
     ],
-    seed=seed,
 )
 mixint = MixedIntegerContext(design_space)
 n_doe = 8 * len(design_space.design_variables)

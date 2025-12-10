@@ -19,7 +19,7 @@ def add_edge_attributes(G):
 
 def add_node_attributes(G, num_attrib_nodes):
     """Add random numerical attributes to nodes"""
-    for node in random.sample(G.nodes(), num_attrib_nodes):
+    for node in random.sample(list(G.nodes()), num_attrib_nodes):
         G.nodes[node]['attribute'] = random.randint(1, 100)
 
 # Parameters
@@ -34,9 +34,17 @@ G = create_random_dag(num_nodes, edge_prob)
 add_edge_attributes(G)
 add_node_attributes(G, num_attrib_nodes)
 
+# Add subset attribute for multipartite_layout.
+# This assigns each node to a vertical layer based on its index.
+for node in G.nodes():
+    G.nodes[node]["subset"] = node
+
 # Draw the graph
-pos = nx.spring_layout(G)  # positions for all nodes
+pos = nx.multipartite_layout(G, subset_key="subset")  # positions for all nodes
 nx.draw(G, pos, with_labels=True)
-edge_labels = nx.get_edge_attributes(G, 'probability')
+
+# Format edge labels to display probabilities as strings with 2 decimal places
+edge_probabilities = nx.get_edge_attributes(G, 'probability')
+edge_labels = {edge: f"{prob:.2f}" for edge, prob in edge_probabilities.items()}
 nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels)
 plt.show()
