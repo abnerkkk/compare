@@ -1,0 +1,17 @@
+line-solver==2.0.33.3
+enum_tools
+jpype1
+numpy
+pandas
+matplotlib
+networkx
+#openbox
+#nevergrad
+#shap # used by openbox
+#lightgbm # used by openbox
+#opytimizer
+#scikit-opt
+#websocket
+smt
+pyDOE3
+scipy

@@ -1,0 +1,14 @@
+31 Dec 2023:
+- de: excellent but generally slow. In the original paper on J. Global Opt. it shows thousands of iterations to get
+  to the global optimum. Nice that it handles all types of mixed-integer constraints and variables.
+- de+smt: way the best combination I have tried, works best even if smt samples with ridicolous small hypercube like 3*ndim.
+  it is important that smt uses 'pow_exp' as it seems to massively improve throughput fitting
+- cobyla: excellent, but it does not handle eq constraints and integer variables. on a sample instance it failed to converge once.
+- slsqp: excellent, extremely fast, again it does not handle integer variables and it's expensive due to the Jacobian
+- ego: interesting, handles integer and categorical variables but very slow despite being surrogate based and oddily
+  returns infeasible solutions
+- openbox: seemed interesting but started to give unclear warnings on the benchmark problems
+- nevergrad: does not seem well designed to handle constraints. NGO and Cobyla have been found in some studies to be among the best
+  in real-valued optimization, with NGO better with more variables
+- opytimizer: seems quite fast but the implementations appear possibly simplistic, but it does not handle constraints
+
